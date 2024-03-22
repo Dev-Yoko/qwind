@@ -28,12 +28,6 @@ export default component$(() => {
           store.isScrolling = false;
         }
       }}
-      meta={{
-        title: "Your title",
-        description: "Your description",
-        keywords: "Your keywords",
-        author: "Your name",
-      }}
     >
       <div class="absolute inset-0"></div>
       <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">

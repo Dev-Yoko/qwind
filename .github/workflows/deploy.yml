@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "qwind-website"
-          entrypoint: "entry.dev.tsx"
-          root: "."
+          entrypoint: "entry.preview.tsx"
+          root: "root.tsx"
